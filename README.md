@@ -91,7 +91,8 @@ This method allows the team to track work progress and ensure responsibilities a
 
 Contributors:
   • Sky Sin
-  • 
+  • Ryan Lopez
+
   • 
   • 
   • 
