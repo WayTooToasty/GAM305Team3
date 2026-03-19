@@ -1,5 +1,76 @@
 Project Log Assignments
 
+Module Three Team Project Plan:
+Team Update:
+Originally, our team planned to work in pairs per blueprint build. However, after discussion, we decided to assign more focused individual roles to improve efficiency and reduce conflicts.
+
+Current team roles:
+  • Alexa - Player Character (movement, controls, health, and damage systems)
+  • Sky - Enemy AI (movement, health, and damage systems), then will move on to jump pads and teleporters
+  • Adam - UI and Map
+  • Ryan - Pickups (Health, Temp. Speed Boost, and Extra Health (Shield))
+  
+This structure will allow each team member to focus on one core system before moving on to additional features.
+
+Testing Plan and Schedule:
+Play Test -
+Testing will begin early during development as soon as core systems are implemented.
+During this time, we will test:
+  1. Character movement
+  2. Enemy AI movement
+  3. Enemy behavior
+
+By the end of this stage, we expect to verify that the enemy can move towards the player and begin testing the basic interaction between the player and the enemy.
+
+Demo Testing -
+Before any demonstration of the project, we will test how the systems interact.
+During this time, we will test:
+  1. Enemy AI dealing contact damage to the player
+  2. Player movement and response
+  3. Initial gameplay flow between the player and enemies
+
+The goal is to ensure the game is functional and playable for demonstration.
+
+Code Release Testing -
+During the code release stage, testing will focus on ensuring that all implemented systems meet the design expectations.
+During this time, we will:
+  1. Test all implemented features against the project design plan
+  2. Confirm systems work together without breaking gameplay
+  3. Retest previously fixed bugs to ensure they remain resolved
+
+Weekly Testing Focus:
+For this week, testing will focus on core gameplay systems:
+  1. Player character functionality (movement, speed, health)
+  2. One Enemy AI (Movement and contact damage)
+  3. One pickup item (health, temp. speed boost, ot shield)
+
+We will test whether the enemy correctly follows the player and applies damage on contact, and whether pickups correctly affect player attributes when collected.
+
+Testing Checklist (Pass/Fail):
+The following items will be tested and marked as pass or fail:
+  1. Player movement works correctly
+  2. Player health system functions
+  3. Enemy AI moves correctly
+  4. Enemy AI follows the player
+  5. Enemy deals damage on contact
+  6. Pickup activates on overlap
+  7. Pickup correctly modifies player stats
+
+Updates on the test plan:
+The test plan will be updated as new features are added or the design document is changed. Each time a new system is implemented, it will be added to the testing checklist and included in future testing sessions.
+
+Bug Reporting Method:
+All bugs and issues will be reported through the team’s Discord channel. Team members will describe the issue and provide details about when and where the bug occurred.
+
+Bug Tracking Over Time:
+Once bugs are reported, the team will work together to resolve them. Progress on bug fixes will be discussed during team meetings and tracked informally through Discord communication and team updates.
+
+Contributors:
+  • (Lead) Sky Sin
+  • Ryan Lopez
+  • Alexa Baios
+  • Adam Mack
+
 Module Two Team Project Plan:
 
 Scenario:
