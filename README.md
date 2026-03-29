@@ -1,5 +1,36 @@
 Project Log Assignments
 
+Module Four Team Project Plan:
+Team QA and Testing Reflection:
+During the QA and testing process for our Alpha build, several aspects of the project went well. The player character movement is functioning correctly, and the enemy AI is successfully moving within the level. The enemy AI can detect the player and move toward the player when in range, confirming that the basic behavior system is working as intended.
+
+Bug Identification and Fixes:
+One issue identified during testing is that when the enemy AI makes contact with the player, it stops moving entirely and does not resume wandering. This indicates a problem in the behavior logic or state transition between actions. Bugs like this were identified through playtesting and observing how the AI reacts during gameplay.
+To address this issue, I plan to implement a separate "Chase" sequence to better control how the enemy transitions between wandering and pursuing the player. This should allow for smoother behavior switching. After resolving movement issues, the next step will be implementing health and damage systems for both the player and enemies.
+
+Improvements for QA Process:
+To improve our QA and testing process, we would benefit from more structured, repeatable testing sessions focused on specific systems, such as AI behavior and player interaction. Creating more detailed test cases for each feature helps identify issues earlier and makes debugging more efficient.
+
+Tools and Techniques:
+The tools selected in Module Two, such as Unreal Engine and Discord, were effective for our development process. Unreal Engine enabled us to test gameplay features with Blueprints quickly, and Discord helped us communicate issues and updates in real time. These tools made collaboration easier and allowed us to identify and discuss bugs quickly.
+One area that could be improved is the better organization of testing feedback. While communication was effective, having a more structured way to track bugs (such as a shared bug list or issue tracker) would improve efficiency and clarity.
+
+Design Decisions and Tool Usage:
+Our initial analysis of the game design document helped guide our choice of tools and development approach. Since our project involves AI behavior, player interaction, and level design, Unreal Engine was a strong fit due to its Blueprint system and real-time testing capabilities. Our decision to split responsibilities based on team strengths also helped us use these tools more effectively.
+
+Next Steps for Development:
+As part of the continued development process, I will focus on improving enemy AI behavior by refining movement logic and implementing a proper chase system. After that, I will add health and damage systems. I also plan to duplicate the current enemy to create variations, including a larger enemy that can split into smaller ones, and potentially add a ranged or turret-style enemy for more gameplay variety.
+
+Alpha Release:
+The Alpha version of our project will be completed and pushed to the repository under the Final Alpha branch by the end of this week. 
+
+Contributors:
+  • (Lead) Sky Sin
+  • Ryan Lopez
+  • Alexa Baios
+  • Adam Mack
+
+
 Module Three Team Project Plan:
 Team Update:
 Originally, our team planned to work in pairs per blueprint build. However, after discussion, we decided to assign more focused individual roles to improve efficiency and reduce conflicts.
