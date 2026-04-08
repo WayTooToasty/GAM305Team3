@@ -1,5 +1,44 @@
 Project Log Assignments
 
+Module Five Team Project Plans:
+Plan Evaluation (Technical/Programming Perspective):
+During this stage of development, the team continued building upon the systems established in previous weeks, focusing on improving functionality and resolving issues identified during the Alpha stage. From a technical standpoint, progress has been steady, especially with core gameplay systems such as player movement and enemy AI.
+One aspect that went well was the continued implementation and testing of core systems. The Enemy AI system has improved, as enemies are now able to detect and move toward the player correctly. Additionally, the team has begun expanding enemy variations by introducing multiple AI types, including one that incorporates ranged (shooting) behavior. A health pickup has also been successfully implemented and is functioning as intended when interacting with the player. This shows clear progression toward a more complete and engaging gameplay experience.
+However, some parts of the plan did not go as expected. While the Enemy AI can successfully chase the player, an issue persists where the AI does not properly return to its “Wander” state after losing the player. This indicates that additional work is needed in refining behavior transitions and AI logic. Another challenge encountered was related to version control. Earlier in the development process, incorrect merging caused confusion in the repository, but this has since been resolved, and the proper Git workflow is now consistently followed.
+
+Integration of Previous Evaluations:
+Feedback from the previous stage (Alpha) was used to guide improvements in both gameplay systems and team workflow. For example, issues with AI behavior identified during earlier testing led to adjustments to the chase logic, allowing enemies to track the player again properly. Additionally, lessons learned from earlier Git errors have helped the team improve how it manages branches, merges, and repository updates, reducing the likelihood of similar issues in the future.
+
+Collaboration and Development Improvements:
+To improve collaboration and development, the team has become more structured in task assignment. Each member is now focusing on specific areas of the project based on their strengths. For example, Enemy AI development is being handled separately from UI and pickups, allowing for more focused progress.
+One improvement moving forward would be better coordination when integrating systems. While individual components are being developed successfully, more frequent testing of combined systems (AI + player + pickups) would help identify issues earlier and improve overall stability.
+
+Tools and Techniques Evaluation:
+The team has primarily used Unreal Engine, GitHub, and Discord for development and communication. Discord has been effective for quick communication and troubleshooting, while GitHub has been essential for version control.
+However, some challenges were encountered with learning resources. Many available tutorials are outdated or do not fully match the current version of Unreal Engine. Additionally, some tutorials do not cover specific features needed for this project (such as detailed AI behavior transitions), making it more difficult to find direct solutions. As a result, more time has been spent experimenting and troubleshooting independently.
+
+Current Beta Development Status:
+At the Beta stage, the project has reached a mostly functional state with core systems implemented. The following progress has been made:
+  - Enemy AI successfully detects and chases the player
+  - Multiple enemy types are being developed (including a shooting variant)
+  - Health pickup is implemented and functional
+  - Core gameplay systems are in place
+Currently in progress:
+  - Fixing AI behavior so enemies return to wandering after losing the player
+  - Implementing health and damage systems for all enemy types
+  - Finalizing multiple enemy variations
+Once these systems are complete, development will move forward to implementing teleporters and jump pads as soon as possible.
+
+Project Schedule and Final Release Plan:
+The team remains aligned with the overall project timeline. While some technical challenges have caused minor delays, progress is still being made toward meeting the final release deadline. The immediate focus is on completing AI behavior and health systems, followed by implementation of the remaining level mechanics (teleporters and jump pads), and final testing and polishing.
+
+Contributors:
+  • Sky Sin
+  • Ryan Lopez
+  • Alexa Bairos
+  • Adam Mack
+
+
 Module Four Team Project Plan:
 Team QA and Testing Reflection:
 During the QA and testing process for our Alpha build, several aspects of the project went well. The player character movement is functioning correctly, and the enemy AI is successfully moving within the level. The enemy AI can detect the player and move toward the player when in range, confirming that the basic behavior system is working as intended.
