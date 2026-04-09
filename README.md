@@ -1,5 +1,31 @@
 Project Log Assignments
 
+Module Six Team Project Plans:
+From an artist’s standpoint, this stage of development has been challenging due to technical issues that directly affected our ability to complete gameplay and visual features. While our plan from Module Three focused on continuing development into polish and final implementation, our progress was impacted by a major issue with the player character asset.
+
+A mistake pushing the player character to the repository incorrectly caused conflicts across the team. As a result, some members, including me, lost access to a working version of the player character. One of my teammates had to recreate it from scratch, but even after that, I still cannot properly access or use the updated file in my project. This has prevented me from continuing key parts of my work.
+
+One area that went well was the base setup for the AI systems. I was able to create three different enemy types with basic behaviors, such as chasing the player. This helped establish a strong foundation for gameplay.
+
+However, many planned features could not be completed. I have not been able to implement the health system for the AI, and collision interactions are not working because the player character reference is missing or incompatible. I am also responsible for teleporters and jump pads, but I cannot complete those systems since they rely on player collision. Even if I build them, I cannot properly link them without a working player character.
+
+Previous feedback was partially applied, especially in expanding AI behavior, but most of this stage was spent troubleshooting instead of improving or polishing. This slowed down overall progress.
+
+To improve our development process, we need better communication and stronger version control practices. One incorrect push caused issues for multiple team members, underscoring the importance of verifying changes before updating the repository. Creating backups and being more careful with merging would help avoid this in the future.
+
+While Git is useful, it can be challenging when dealing with .uasset files, as errors are harder to fix. Additionally, many tutorials we used were outdated or did not match our setup, which made solving problems more difficult.
+
+At this stage, we have a working foundation for AI and level structure. Still, important systems like health, collision interactions, teleporters, and jump pads are incomplete due to the ongoing player character issue. Until that is resolved, progress will remain limited.
+
+Overall, this experience showed how dependent artistic and gameplay development is on stable technical systems and strong team coordination.
+
+Contributors:
+  • Sky Sin
+  • Ryan Lopez
+  • Alexa Bairos
+  • Adam Mack
+
+
 Module Five Team Project Plans:
 Plan Evaluation (Technical/Programming Perspective):
 During this stage of development, the team continued building upon the systems established in previous weeks, focusing on improving functionality and resolving issues identified during the Alpha stage. From a technical standpoint, progress has been steady, especially with core gameplay systems such as player movement and enemy AI.
